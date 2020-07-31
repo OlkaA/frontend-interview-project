@@ -1,0 +1,50 @@
+@import "../../styles/import";
+
+.root {
+  font-family: "IBM Plex Mono", monospace;
+  color: $dixa-black;
+  font-weight: 600;
+
+  .wrapper {
+    position: relative;
+    width: 600px;
+    max-width: 90vw;
+
+    .title {
+      font-size: 1.5em;
+      padding: 5px 10px;
+
+      &:hover {
+        background-color: $grey-5;
+      }
+    }
+
+    div input {
+      width: 100%;
+      padding: 3px 8px;
+      font-family: "IBM Plex Mono", monospace;
+      color: $dixa-black;
+      font-weight: 600;
+      font-size: 1.5em;
+      background-color: $grey-5;
+    }
+
+    .save,
+    .close {
+      position: absolute;
+      top: 100%;
+      background-color: transparent;
+      color: $dixa-black-faded;
+      border: none;
+      font-size: 1rem;
+    }
+
+    .save {
+      right: -20px;
+    }
+
+    .close {
+      right: 10px;
+    }
+  }
+}
