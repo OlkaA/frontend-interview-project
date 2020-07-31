@@ -658,7 +658,7 @@ exports[`Storyshots Chart Regular 1`] = `
 </div>
 `;
 
-exports[`Storyshots EditabelLabel Regular 1`] = `
+exports[`Storyshots EditableLabel Regular 1`] = `
 <div>
   <div
     className="undefined"
@@ -671,8 +671,6 @@ exports[`Storyshots EditabelLabel Regular 1`] = `
       </div>
     </div>
   </div>
-  <br />
-  <br />
 </div>
 `;
 

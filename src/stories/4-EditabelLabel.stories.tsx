@@ -1,14 +1,14 @@
 import React from 'react';
-import EditabelLabel from '../components/editabelLabel';
+import EditableLabel from '../components/editableLabel';
 
 
 export const regular: React.FC = () => {
     return (
         <div>
-            <EditabelLabel text="Save the world" />
+            <EditableLabel text="Save the world" />
         </div>)
 };
 
 export default {
-    title: 'EditabelLabel',
+    title: 'EditableLabel',
 };

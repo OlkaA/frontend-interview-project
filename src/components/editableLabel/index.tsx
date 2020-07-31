@@ -1,6 +1,6 @@
 import React, { FC, useState, useEffect, ChangeEvent } from "react";
 import classnames from "classnames";
-import styles from "./editabelLabel.module.scss";
+import styles from "./editableLabel.module.scss";
 
 
 interface Props {
@@ -20,7 +20,7 @@ const initialState: State = {
     isEditMode: false,
 };
 
-const EditabelLabel: FC<Props> = (props) => {
+const EditableLabel: FC<Props> = (props) => {
     const { className, text, ...otherProps } = props;
 
     const [state, setState] = useState<State>(initialState);
@@ -65,4 +65,4 @@ const EditabelLabel: FC<Props> = (props) => {
     );
 };
 
-export default EditabelLabel;
+export default EditableLabel;
