@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   background: rgba($dixa-black-faded, 0.6);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   color: $dixa-black;
   font-weight: 600;
 
@@ -18,18 +18,19 @@
     $noTitle: & !global;
   }
 
-  > div{
+  > div {
     width: 400px;
     max-width: 90vw;
     background-color: $dixa-separator-grey-faded;
     position: relative;
     text-align: center;
 
-    h2, div {
+    h2,
+    div {
       padding: 10px 20px;
     }
 
-    h2{      
+    h2 {
       background-color: $dixa-blue;
       color: $dixa-separator-grey-faded;
       margin: 0;
